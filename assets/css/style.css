@@ -1,0 +1,124 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+:root {
+
+}
+
+.list-images img {
+  
+  width: 145px;
+ 
+  
+  }
+  
+  .list-images {
+    overflow-y: scroll;
+    height: 560px;
+    margin-top: 10px;
+  
+    translate: -40%;
+
+  }
+  
+  .selected {
+    border: 10px solid rgb(255, 2, 2);
+
+  }
+  
+
+  
+  
+  .list-images img:hover {
+    filter: saturate(200%);
+
+    border: 5px solid rgb(115, 255, 0);
+    mix-blend-mode: overlay;
+  }
+  
+  .list-images img.selected {
+  position: relative;
+    filter: saturate(300%);
+
+    border-width: 7px;
+    border-radius: 0%;
+    border-image: linear-gradient(to right, rgb(222, 226, 0), rgb(255, 234, 234));
+    border-image-slice: 1;
+    
+  
+    }
+#user-input {
+  background-color: rgba(229, 230, 227, 0);
+  margin-top: 150px;
+    font-size: 20px;
+    color: rgb(255, 255, 255) !important;
+    translate: 27%;
+    font-size: 27px;
+    width: 342px;
+
+}
+
+  
+  #user-input::placeholder {
+  letter-spacing: normal;
+ 
+  }
+
+.slider-container {
+  translate: 50%;
+  }
+  
+  
+  .swal-modal {
+    background-image: url('assets/imgs/skin/palomita.png');
+    background-color: rgba(255, 0, 0, 0.932);
+    background-size: cover;
+  }
+
+.swal-icon--success:before {
+    background-color: var(--bg-dark);
+}
+
+.swal-icon--success:after {
+    background-color: var(--bg-dark);
+}
+.swal-icon--success__hide-corners {
+    background-color: var(--bg-dark);
+}
+
+.swal-title {
+    color: rgb(255, 255, 255) !important;
+}
+.swal-text {
+    color: hsl(0, 0%, 100%) !important;
+    background-color: rgb(255, 0, 0);
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+  
+  #userIP {
+    
+  font-size: 40px;
+  color: #020202;
+  text-align: right;
+  display: block;
+  padding: 6px;
+  
+  }
+  
+  .buttonid {
+    border-radius: 10%;
+    background-color: rgba(191, 194, 7, 0);
+    color: rgba(235, 0, 0, 0)241);
+    width: 170px;
+    height: 100px;
+    border: none;
+    font-size: 25px;
+    transform: translate(-60%);
+    margin-top: 100px;
+    z-index: ; /* Esto asegurará que el botón esté por encima de todos los demás elementos */
+  }
+  .loader {
+    /* Estilos para el cargador */
+  }
